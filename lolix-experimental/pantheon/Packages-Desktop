@@ -1,0 +1,152 @@
+
+#####################################################
+### THIS FILE WILL INCLUDE shared/Packages-Custom ###
+#####################################################
+
+
+### Manjaro Packages Pantheon
+
+## All file for any DE
+dconf-editor
+gamin
+gconf # fix qt-theme
+gnome-keyring # fix wlan segfault
+gnome-control-center # for switchboard plug : some plug not work fine
+#gnome-settings-daemon-compat #for helping to use function key in a notebook
+gvfs # to fix trash in thunar
+file-roller
+ristretto
+#xcursor-simpleandsoft
+#xcursor-vanilla-dmz-aa
+#tumbler
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+gnome-system-monitor
+gksu
+#xfce4-screenshooter #snapshot program snap-photobooth problem
+#xterm #need for use cli installer
+
+##Deps
+gtk-theme-elementary-bzr
+
+##Pantheon Shell
+plank
+gala-bzr #solved in upstream
+#pantheon-default-settings
+pantheon-session-bzr
+slingshot-launcher-bzr
+wingpanel-bzr
+wingpanel-indicator-notifications-bzr
+wingpanel-indicator-ayatana-bzr
+wingpanel-indicator-datetime-bzr
+wingpanel-indicator-network-bzr
+wingpanel-indicator-power-bzr
+wingpanel-indicator-session-bzr
+wingpanel-indicator-sound-bzr
+#wingpanel-indicator-launcher-bzr
+#pantheon-session-bzr
+pantheon-default-settings-bzr
+
+##Art Stuff
+elementary-icon-theme-bzr
+pantheon-backgrounds-bzr
+#elementary-add-icon-theme-git #AUR
+plank-theme-pantheon-bzr
+>systemd plymouth-theme-manjaro-elegant
+manjaro-backgrounds
+pantheon-wallpapers 
+
+##Pantheon Apps
+audience
+noise-player
+evince
+contractor-bzr
+#geary-plank-bzr #not work error with a library
+#lightdm-pantheon-greeter-bzr
+#maya-calendar-bzr
+#midori-granite-bzr
+#firefox
+pantheon-calculator-bzr
+pantheon-files-bzr
+pantheon-print-bzr
+pantheon-terminal-bzr
+scratch-text-editor-bzr
+snap-photobooth-bzr
+pantheon-photos #replace shotwell and now stable
+
+
+##Switchboard
+switchboard-bzr
+switchboard-plug-default-applications-bzr
+switchboard-plug-power-bzr
+switchboard-plug-elementary-tweaks-bzr
+switchboard-plug-desktop-bzr
+switchboard-plug-keyboard-bzr #not work at the moment
+switchboard-plug-about-bzr
+switchboard-plug-display-bzr
+#switchboard-plug-locale
+switchboard-plug-datetime-bzr
+switchboard-plug-network-bzr
+switchboard-plug-notifications-bzr
+switchboard-plug-online-accounts-bzr
+switchboard-plug-security-privacy-bzr
+switchboard-plug-display-bzr
+elementary-dpms-helper-bzr #need for use switchboard-plug
+
+##Font
+#ttf-opensans
+#ttf-raleway-font-family
+#ttf-dejavu
+#ttf-droid
+#ttf-freefont
+#ttf-liberation
+#cantarell-fonts
+
+
+## Audio Packages
+manjaro-alsa
+manjaro-pulse
+pavucontrol
+pa-applet
+pulseaudio-ctl
+
+## Applications
+#accountsservice
+polkit-gnome
+gst-libav
+light-locker
+manjaro-settings-manager
+#manjaro-printer
+manjaro-hello
+pamac
+
+## Network
+netctl
+networkmanager
+networkmanager-dispatcher-ntpd
+openresolv
+
+## Packages for Sound and Audio
+#gst-libav
+#gst-plugins-bad
+#gst-plugins-base
+#gst-plugins-good
+#gst-plugins-ugly
+#flashplugin
+#libdvdcss
+manjaro-alsa
+manjaro-pulse
+pavucontrol
+pulseaudio-ctl
+
+## Documentation
+manjaro-documentation
+
+##Access AUR
+base-devel
+yaourt
+git
+bzr
+
+#Settings
+manjaro-pantheon-settings

@@ -1,0 +1,109 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## Manjaro
+manjaro-artwork
+manjaro-documentation
+manjaro-alsa
+manjaro-pulse
+manjaro-printer
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+manjaro-hello
+
+
+## Artwork and Fonts
+andromeda-icon-theme
+andromeda-wallpaper
+menda-lxqt-panel
+menda-circle-icon-theme
+vertex-maia-themes
+xcursor-breeze
+
+
+## Display Manager
+sddm
+sddm-qt-manjaro-theme
+
+
+## Window Manager
+compton
+feh
+obmenu-generator
+openbox
+openbox-themes
+tint2
+
+
+## LXQT Desktop (group)
+lxqt
+#lximage-qt
+#lxqt-about
+#lxqt-common
+#lxqt-config
+#lxqt-globalkeys
+#lxqt-notificationd
+#lxqt-openssh-askpass
+#lxqt-policykit
+#lxqt-powermanagement
+#lxqt-qtplugin
+#lxqt-runner
+#lxqt-session
+#lxqt-sudo
+
+
+## QT GUI Programs
+kcalc
+kwrite
+qpdfview
+qterminal
+qupzilla
+vlc-nightly
+xarchiver
+
+
+## LXDE GUI Programs
+#lxmusic
+#lxtask-gtk3
+
+
+## GTK GUI Programs
+#conky
+#conky-manager
+#gnome-disk-utility
+#gparted
+#simple-scan
+#firefox
+
+
+## Network and connect
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+modemmanager
+modemmanager-qt
+networkmanager
+networkmanager-dispatcher-ntpd
+network-manager-applet
+openresolv
+
+
+## Basic
+accountsservice
+gconf
+yelp
+
+
+## Packages for Sound and Audio
+ffmpeg
+#flashplugin
+
+
+## Package manager and AUR
+octopi
+base-devel
+yaourt
+git

@@ -1,0 +1,146 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## Manjaro
+manjaro-documentation
+manjaro-alsa
+manjaro-pulse
+manjaro-printer
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+manjaro-hello
+manjaro-mate-settings
+
+
+## Artwork and Fonts
+adwaita-manjaro-themes
+faenza-green-icon-theme
+faenza-icon-theme
+gnome-themes-standard
+mate-icon-theme-faenza  # mate-extra-gtk3 group
+mate-wallpapers
+maia-wallpaper
+plymouth-theme-manjaro-elegant
+xcursor-breeze
+xcursor-simpleandsoft
+arc-gtk-theme
+arc-icon-theme
+arc-solid-gtk-theme
+
+
+## Display Manager
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+## Mate GTK3
+mate-gtk3			# Caja, Marco - core
+#mate-extra-gtk3		# Mozo, desktop apps
+
+# Mate 
+brisk-menu
+mate-tweak
+#mate-menu			# Mint menu for mate
+
+# mate-extra-gtk3 group
+caja-gksu-gtk3
+caja-open-terminal-gtk3
+caja-wallpaper-gtk3
+mate-applets-gtk3
+mate-utils-gtk3
+engrampa
+galculator
+mate-system-monitor
+mate-terminal
+mozo
+
+# mate-extra-gtk3 group
+#atril-gtk3
+#eom-gtk3
+#pluma-gtk3
+
+
+## X-apps
+xapps       # common lib
+xreader    # atril/evince
+xviewer    # eom/eog
+xed        # pluma/gedit
+
+xplayer    # totem
+pix        # gthumb
+
+
+## Gnome stuff
+gksu
+gnome-disk-utility
+gnome-keyring
+gsmartcontrol
+gtk3-print-backends
+
+
+## GUI Programs
+conky
+conky-manager
+gparted
+simple-scan
+
+
+## Gui Programs 2
+#libreoffice-fresh
+#clementine
+#vlc
+#gnome-mahjongg
+#firefox
+#chromium
+#liferea
+
+
+## Network and connect
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+modemmanager
+modem-manager-gui
+networkmanager
+networkmanager-dispatcher-ntpd
+network-manager-applet
+openresolv
+
+
+## Basic
+accountsservice
+gconf
+yelp
+
+
+## Packages for Sound and Audio
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+pavucontrol
+#pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-gconf
+pulseaudio-zeroconf
+
+
+## Package manager and AUR
+pamac
+base-devel
+yaourt
+git
+
+
+## Italian
+qt5-translations
+aspell-it
+hunspell
+hyphen-it
+man-pages-it

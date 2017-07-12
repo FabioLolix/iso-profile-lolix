@@ -1,0 +1,120 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## Manjaro
+manjaro-documentation
+manjaro-alsa
+manjaro-pulse
+manjaro-printer
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+manjaro-hello
+manjaro-cinnamon-settings
+
+
+## Artwork and Fonts
+adwaita-manjaro-themes
+artwork-cinnamon-minimal
+faenza-green-icon-theme
+faenza-icon-theme
+plymouth-theme-manjaro-cinnamon 
+xcursor-breeze
+xcursor-simpleandsoft
+
+
+## Display Manager
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+## Cinnamon
+cinnamon
+cinnamon-wallpapers
+nemo-fileroller
+nemo-preview
+nemo-python
+nemo-share
+xdg-user-dirs-gtk
+
+
+## Gnome GUI Programs and related stuff
+evince
+file-roller
+xed
+gksu
+gnome-calculator
+gnome-disk-utility
+gnome-system-log
+gnome-keyring
+gnome-screenshot
+gsmartcontrol
+
+
+## GUI Programs
+conky
+conky-manager
+baobab
+gparted
+simple-scan
+eog
+xfce4-terminal
+
+
+## Gui Programs 2
+libreoffice-fresh
+clementine
+vlc
+gnome-mahjongg
+firefox
+chromium
+liferea
+
+
+## Network and connect
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-smb
+modem-manager-gui
+networkmanager
+networkmanager-dispatcher-ntpd
+network-manager-applet
+openresolv
+
+
+## Basic
+accountsservice
+gconf
+yelp
+
+
+## Packages for Sound and Audio
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+pavucontrol
+#pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-gconf
+pulseaudio-zeroconf
+
+
+## Package manager and AUR
+pamac
+base-devel
+yaourt
+git
+
+
+## Italian
+qt5-translations
+aspell-it
+hunspell
+hyphen-it
+man-pages-it
