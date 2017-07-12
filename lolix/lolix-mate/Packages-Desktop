@@ -1,9 +1,5 @@
-######################################################
-### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
-######################################################
-
 ## Manjaro
-manjaro-documentation
+manjaro-documentation-en
 manjaro-alsa
 manjaro-pulse
 manjaro-printer
@@ -21,7 +17,7 @@ gnome-themes-standard
 mate-icon-theme-faenza  # mate-extra-gtk3 group
 mate-wallpapers
 maia-wallpaper
-plymouth-theme-manjaro-elegant
+#plymouth-theme-manjaro-elegant
 xcursor-breeze
 xcursor-simpleandsoft
 arc-gtk-theme
@@ -35,30 +31,28 @@ lightdm-gtk-greeter-settings
 
 
 ## Mate GTK3
-mate-gtk3			# Caja, Marco - core
-#mate-extra-gtk3		# Mozo, desktop apps
+mate			# Caja, Marco - core
+#mate-extra		# Mozo, desktop apps
 
 # Mate 
 brisk-menu
 mate-tweak
 #mate-menu			# Mint menu for mate
 
-# mate-extra-gtk3 group
-caja-gksu-gtk3
-caja-open-terminal-gtk3
-caja-wallpaper-gtk3
-mate-applets-gtk3
-mate-utils-gtk3
+# mate-extra group
+caja-gksu
+caja-open-terminal
+caja-wallpaper
+mate-applets
+mate-utils
 engrampa
 galculator
 mate-system-monitor
 mate-terminal
 mozo
-
-# mate-extra-gtk3 group
-#atril-gtk3
-#eom-gtk3
-#pluma-gtk3
+#atril
+#eom
+#pluma
 
 
 ## X-apps
@@ -66,9 +60,8 @@ xapps       # common lib
 xreader    # atril/evince
 xviewer    # eom/eog
 xed        # pluma/gedit
-
-xplayer    # totem
-pix        # gthumb
+>extra xplayer    # totem
+>extra pix        # gthumb
 
 
 ## Gnome stuff
@@ -77,23 +70,19 @@ gnome-disk-utility
 gnome-keyring
 gsmartcontrol
 gtk3-print-backends
-
+gparted
 
 ## GUI Programs
-conky
-conky-manager
-gparted
-simple-scan
-
-
-## Gui Programs 2
-#libreoffice-fresh
-#clementine
-#vlc
-#gnome-mahjongg
-#firefox
-#chromium
-#liferea
+>extra libreoffice-fresh
+>extra clementine
+>extra vlc
+>extra gnome-mahjongg
+>extra firefox
+>extra chromium
+>extra liferea
+>extra conky
+>extra conky-manager
+>extra simple-scan
 
 
 ## Network and connect
@@ -102,8 +91,8 @@ gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-modemmanager
-modem-manager-gui
+#modemmanager
+>extra modem-manager-gui
 networkmanager
 networkmanager-dispatcher-ntpd
 network-manager-applet
@@ -117,25 +106,23 @@ yelp
 
 
 ## Packages for Sound and Audio
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
 pavucontrol
 #pulseaudio-bluetooth
 pulseaudio-ctl
-pulseaudio-gconf
-pulseaudio-zeroconf
 
 
 ## Package manager and AUR
 pamac
-base-devel
-yaourt
-git
+>extra base-devel
+>extra yaourt
+>extra git
 
 
 ## Italian
@@ -144,3 +131,54 @@ aspell-it
 hunspell
 hyphen-it
 man-pages-it
+
+## Shared Packages-Desktop list
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc media-player-info-nosystemd
+>openrc libpulse-nosystemd
+powertop
+>systemd alsa-utils
+>systemd avahi
+networkmanager
+>systemd ntp
+>systemd openssh
+>systemd xdg-user-dirs
+>systemd xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
+xf86-input-mouse
+xf86-input-void
+xorg-twm
+xorg-xinit
