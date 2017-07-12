@@ -1,9 +1,5 @@
-######################################################
-### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
-######################################################
-
 ## Manjaro
-manjaro-documentation
+manjaro-documentation-en
 manjaro-alsa
 manjaro-pulse
 manjaro-printer
@@ -18,7 +14,6 @@ adwaita-manjaro-themes
 artwork-cinnamon-minimal
 faenza-green-icon-theme
 faenza-icon-theme
-plymouth-theme-manjaro-cinnamon 
 xcursor-breeze
 xcursor-simpleandsoft
 
@@ -78,7 +73,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
 modem-manager-gui
-networkmanager
 networkmanager-dispatcher-ntpd
 network-manager-applet
 openresolv
@@ -99,10 +93,6 @@ gst-plugins-good
 gst-plugins-ugly
 libdvdcss
 pavucontrol
-#pulseaudio-bluetooth
-pulseaudio-ctl
-pulseaudio-gconf
-pulseaudio-zeroconf
 
 
 ## Package manager and AUR
@@ -118,3 +108,55 @@ aspell-it
 hunspell
 hyphen-it
 man-pages-it
+
+
+## Packages Desktop
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+>openrc alsa-utils-openrc
+>openrc avahi-openrc
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc networkmanager-openrc
+>openrc ntp-openrc
+>openrc openssh-openrc
+>openrc accountsservice-elogind
+>openrc upower-nosystemd
+>openrc udisks2-elogind
+>openrc xdg-user-dirs-nosystemd
+>openrc xorg-server-nosystemd
+>openrc media-player-info-nosystemd
+>openrc libpulse-nosystemd
+powertop
+>systemd alsa-utils
+>systemd avahi
+networkmanager
+>systemd ntp
+>systemd openssh
+>systemd xdg-user-dirs
+>systemd xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
+xf86-input-mouse
+xf86-input-void
+xorg-twm
+xorg-xinit
