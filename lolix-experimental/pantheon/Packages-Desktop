@@ -1,9 +1,3 @@
-
-#####################################################
-### THIS FILE WILL INCLUDE shared/Packages-Custom ###
-#####################################################
-
-
 ### Manjaro Packages Pantheon
 
 ## All file for any DE
@@ -25,34 +19,33 @@ gnome-system-monitor
 gksu
 #xfce4-screenshooter #snapshot program snap-photobooth problem
 #xterm #need for use cli installer
+granite
+libx264
 
 ##Deps
-gtk-theme-elementary-bzr
+gtk-theme-elementary
 
 ##Pantheon Shell
 plank
-gala-bzr #solved in upstream
-#pantheon-default-settings
+gala #solved in upstream
 pantheon-session-bzr
-slingshot-launcher-bzr
-wingpanel-bzr
-wingpanel-indicator-notifications-bzr
-wingpanel-indicator-ayatana-bzr
-wingpanel-indicator-datetime-bzr
-wingpanel-indicator-network-bzr
-wingpanel-indicator-power-bzr
-wingpanel-indicator-session-bzr
-wingpanel-indicator-sound-bzr
-#wingpanel-indicator-launcher-bzr
-#pantheon-session-bzr
-pantheon-default-settings-bzr
+wingpanel
+wingpanel-indicator-notifications
+#wingpanel-indicator-ayatana
+#wingpanel-indicator-ally-git
+wingpanel-indicator-datetime
+wingpanel-indicator-network
+wingpanel-indicator-power
+wingpanel-indicator-session
+wingpanel-indicator-sound
+#wingpanel-indicator-launcher
+#pantheon-default-settings-brz #AUR
 
 ##Art Stuff
-elementary-icon-theme-bzr
-pantheon-backgrounds-bzr
+elementary-icon-theme-git
+elementary-wallpapers-git
+#pantheon-backgrounds-bzr #AUR
 #elementary-add-icon-theme-git #AUR
-plank-theme-pantheon-bzr
->systemd plymouth-theme-manjaro-elegant
 manjaro-backgrounds
 pantheon-wallpapers 
 
@@ -60,38 +53,36 @@ pantheon-wallpapers
 audience
 noise-player
 evince
-contractor-bzr
+contractor-git
 #geary-plank-bzr #not work error with a library
 #lightdm-pantheon-greeter-bzr
 #maya-calendar-bzr
 #midori-granite-bzr
 #firefox
-pantheon-calculator-bzr
+pantheon-calculator
 pantheon-files-bzr
-pantheon-print-bzr
-pantheon-terminal-bzr
-scratch-text-editor-bzr
-snap-photobooth-bzr
-pantheon-photos #replace shotwell and now stable
+pantheon-print-git
+pantheon-terminal-git
+scratch-text-editor-git
+#snap-photobooth #AUR
+pantheon-photos
 
 
 ##Switchboard
-switchboard-bzr
-switchboard-plug-default-applications-bzr
-switchboard-plug-power-bzr
-switchboard-plug-elementary-tweaks-bzr
-switchboard-plug-desktop-bzr
-switchboard-plug-keyboard-bzr #not work at the moment
-switchboard-plug-about-bzr
-switchboard-plug-display-bzr
+switchboard
+switchboard-plug-power
+#switchboard-plug-elementary-tweaks-git #AUR
+switchboard-plug-desktop
+switchboard-plug-keyboard #not work at the moment
+switchboard-plug-about
 #switchboard-plug-locale
-switchboard-plug-datetime-bzr
-switchboard-plug-network-bzr
-switchboard-plug-notifications-bzr
-switchboard-plug-online-accounts-bzr
-switchboard-plug-security-privacy-bzr
-switchboard-plug-display-bzr
-elementary-dpms-helper-bzr #need for use switchboard-plug
+switchboard-plug-datetime
+switchboard-plug-network
+switchboard-plug-notifications
+#switchboard-plug-security-privacy
+switchboard-plug-display
+pantheon-dpms-helper-bzr
+#elementary-dpms-helper-bzr #AUR
 
 ##Font
 #ttf-opensans
@@ -102,14 +93,6 @@ elementary-dpms-helper-bzr #need for use switchboard-plug
 #ttf-liberation
 #cantarell-fonts
 
-
-## Audio Packages
-manjaro-alsa
-manjaro-pulse
-pavucontrol
-pa-applet
-pulseaudio-ctl
-
 ## Applications
 #accountsservice
 polkit-gnome
@@ -117,7 +100,7 @@ gst-libav
 light-locker
 manjaro-settings-manager
 #manjaro-printer
-manjaro-hello
+#manjaro-hello
 pamac
 
 ## Network
@@ -140,13 +123,48 @@ pavucontrol
 pulseaudio-ctl
 
 ## Documentation
-manjaro-documentation
+manjaro-documentation-en
 
 ##Access AUR
-base-devel
-yaourt
-git
-bzr
+#base-devel
+#yaourt
+#git
+#bzr
 
 #Settings
 manjaro-pantheon-settings
+
+
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+>systemd alsa-utils
+>systemd avahi
+networkmanager
+>systemd ntp
+>systemd openssh
+>systemd xdg-user-dirs
+>systemd xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-twm
+xorg-xinit
