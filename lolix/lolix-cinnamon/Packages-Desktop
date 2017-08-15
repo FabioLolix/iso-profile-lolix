@@ -5,7 +5,7 @@ manjaro-pulse
 manjaro-printer
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-manjaro-hello
+>extra manjaro-hello
 manjaro-cinnamon-settings
 
 
@@ -33,73 +33,75 @@ nemo-share
 xdg-user-dirs-gtk
 
 
-## Gnome GUI Programs and related stuff
+## GTK programs
+baobab
+gparted
+gsmartcontrol
 evince
 file-roller
+pix
 xed
+xfce4-terminal
 gksu
 gnome-calculator
 gnome-disk-utility
 gnome-system-log
 gnome-keyring
 gnome-screenshot
-gsmartcontrol
+>extra gtk3-print-backends
+>extra conky-manager
+>extra libreoffice-fresh
+>extra gnome-mahjongg
+>extra firefox
+>extra chromium
+>extra liferea
+>extra simple-scan
 
 
-## GUI Programs
-conky
-conky-manager
-baobab
-gparted
-simple-scan
-eog
-xfce4-terminal
+## QT programs
+>extra clementine
+>extra vlc
 
 
-## Gui Programs 2
-libreoffice-fresh
-clementine
-vlc
-gnome-mahjongg
-firefox
-chromium
-liferea
+## CLI programs
+clonezilla
+testdisk
 
 
 ## Network and connect
 gvfs
-gvfs-afc
+>extra gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-smb
-modem-manager-gui
+>extra modem-manager-gui
 networkmanager-dispatcher-ntpd
 network-manager-applet
-openresolv
+#openresolv
 
 
 ## Basic
-accountsservice
-gconf
-yelp
+#accountsservice
+#gconf
+#yelp
 
 
 ## Packages for Sound and Audio
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-libdvdcss
+>extra ffmpeg
+>extra gst-libav
+>extra gst-plugins-bad
+>extra gst-plugins-base
+>extra gst-plugins-good
+>extra gst-plugins-ugly
+>extra libdvdcss
 pavucontrol
 
 
 ## Package manager and AUR
 pamac
-base-devel
-yaourt
-git
+>extra base-devel
+>extra yaourt
+>extra git
 
 
 ## Italian
@@ -119,29 +121,14 @@ mobile-broadband-provider-info
 modemmanager
 nss-mdns
 numlockx
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc displaymanager-openrc
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->openrc media-player-info-nosystemd
->openrc libpulse-nosystemd
 powertop
->systemd alsa-utils
->systemd avahi
+alsa-utils
+avahi
 networkmanager
->systemd ntp
->systemd openssh
->systemd xdg-user-dirs
->systemd xorg-server
+ntp
+openssh
+xdg-user-dirs
+xorg-server
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -154,8 +141,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
