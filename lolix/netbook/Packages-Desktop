@@ -1,20 +1,26 @@
-######################################################
-### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
-######################################################
+## Manjaro
+manjaro-documentation-en
+manjaro-alsa
+manjaro-pulse
+manjaro-printer
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+>extra manjaro-hello
+manjaro-netbook-settings
+#manjaro-netbook-system
 
 ## Netbook Edition packages
-manjaro-netbook-settings
-manjaro-netbook-system
+
+
 xfwm4-manjaro-netbook
 faenza-manjaro-netbook-icon-theme
 nitrogen
 compton
 gpicview
-wmctrl
-dockbarx
-xfce4-dockbarx-plugin
-#palemoon-bin
-zenity
+#wmctrl
+#dockbarx
+#xfce4-dockbarx-plugin
+
 
 ## xfce4 package group with omissions for Netbook Edition
 exo
@@ -39,17 +45,17 @@ xfwm4-themes
 #gconf # fix qt-theme
 gnome-keyring # fix wlan segfault
 #gufw # firewall
-accountsservice
+#accountsservice
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 light-locker
-manjaro-settings-manager
+#manjaro-settings-manager
 #menulibre
 network-manager-applet
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
+#networkmanager-openconnect
+#networkmanager-openvpn
+#networkmanager-pptp
+#networkmanager-vpnc
 #orage
 #plank
 #poppler-glib
@@ -94,7 +100,7 @@ xfce4-taskmanager
 #xfce4-xkb-plugin
 
 ## Applications
-catfish # needed for desktop search
+#catfish # needed for desktop search
 #firefox
 #galculator-gtk2
 #gimp
@@ -102,20 +108,20 @@ gksu
 gparted
 #guayadeque
 gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
+#gvfs-afc
+#gvfs-gphoto2
+#gvfs-mtp
+#gvfs-smb
 #hexchat
 #manjaro-hello
 #midori
 #mlocate
-mousepad
+#mousepad
 #parole
 #pidgin
 #evince
 #raktpdf
-qpdfview
+#qpdfview
 #thunderbird
 #viewnior
 #vlc
@@ -132,14 +138,10 @@ openresolv
 #blueman
 
 ## Artwork
-#menda-circle-icon-theme
 faenza-green-icon-theme
-menda-themes
-#menda-themes-dark
 gnome-themes-standard
 manjaro-artwork
 #xfce-theme-greenbird
-#plymouth-theme-manjaro-elegant
 
 ## Packages for Sound and Audio
 #gst-libav
@@ -147,44 +149,17 @@ manjaro-artwork
 #gst-plugins-base
 #gst-plugins-good
 #gst-plugins-ugly
-#flashplugin
 #libdvdcss
-manjaro-alsa
 #manjaro-pulse
-#pavucontrol
-#pa-applet
-#pulseaudio-bluetooth
-#pulseaudio-ctl
-#pulseaudio-zeroconf
+pavucontrol
+
 
 ## Package management
 pamac
-
-## Games
-#steam-manjaro
-
-## Fonts
-#adobe-source-sans-pro-fonts
-#cantarell-fonts
-
-## Java
-#jre8-openjdk
-#jre8-openjdk-headless
-#icedtea-web
-
-## Printing
-#manjaro-printer
-
-## Office
-#abiword
-#gnumeric
-#libreoffice-still
-
-## AUR Access
 #base-devel
 #yaourt
 
-## Shared Packages-Desktop list
+## Packages Desktop
 alsa-firmware
 dmidecode
 inxi
@@ -193,29 +168,14 @@ mobile-broadband-provider-info
 modemmanager
 nss-mdns
 numlockx
->openrc alsa-utils-openrc
->openrc avahi-openrc
->openrc elogind-openrc
->openrc openrc-settingsd
->openrc displaymanager-openrc
->openrc networkmanager-openrc
->openrc ntp-openrc
->openrc openssh-openrc
->openrc accountsservice-elogind
->openrc upower-nosystemd
->openrc udisks2-elogind
->openrc xdg-user-dirs-nosystemd
->openrc xorg-server-nosystemd
->openrc media-player-info-nosystemd
->openrc libpulse-nosystemd
 powertop
->systemd alsa-utils
->systemd avahi
+alsa-utils
+avahi
 networkmanager
->systemd ntp
->systemd openssh
->systemd xdg-user-dirs
->systemd xorg-server
+ntp
+openssh
+xdg-user-dirs
+xorg-server
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -228,8 +188,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
->openrc xf86-input-libinput-nosystemd
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
