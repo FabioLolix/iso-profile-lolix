@@ -4,7 +4,7 @@ manjaro-alsa
 manjaro-pulse
 manjaro-printer
 manjaro-settings-manager
-manjaro-settings-manager-notifier
+>extra manjaro-settings-manager-notifier
 >extra manjaro-hello
 manjaro-mate-settings
 
@@ -29,14 +29,11 @@ lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 
 
-## Mate GTK3
+## Mate
 mate			# Caja, Marco - core
 #mate-extra		# Mozo, desktop apps
-
-# Mate 
 brisk-menu
 mate-tweak
-#mate-menu			# Mint menu for mate
 
 # mate-extra group
 caja-gksu
@@ -49,9 +46,6 @@ galculator
 mate-system-monitor
 mate-terminal
 mozo
-#atril
-#eom
-#pluma
 
 
 ## X-apps
@@ -128,7 +122,7 @@ pamac
 
 
 ## Italian
-qt5-translations
+#>extra qt5-translations
 aspell-it
 hunspell
 hyphen-it
