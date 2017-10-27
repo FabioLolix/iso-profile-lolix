@@ -1,8 +1,8 @@
 ## Manjaro
 manjaro-documentation-en
 manjaro-alsa
-manjaro-pulse
-manjaro-printer
+>extra manjaro-pulse
+>extra manjaro-printer
 manjaro-settings-manager
 >extra manjaro-settings-manager-notifier
 >extra manjaro-hello
@@ -48,27 +48,15 @@ mate-terminal
 mozo
 
 
-## X-apps
-xapps       # common lib
-xreader    # atril/evince
-xviewer    # eom/eog
-xed        # pluma/gedit
->extra xplayer    # totem
->extra pix        # gthumb
-
-
-## Gnome stuff
+## GTK programs
 gksu
 gnome-disk-utility
 gnome-keyring
 gsmartcontrol
-gtk3-print-backends
 gparted
-
-## GUI Programs
+lollypop
+>extra gtk3-print-backends
 >extra libreoffice-fresh
->extra clementine
->extra vlc
 >extra gnome-mahjongg
 >extra firefox
 >extra chromium
@@ -76,31 +64,25 @@ gparted
 >extra conky
 >extra conky-manager
 >extra simple-scan
-
-
-## CLI programs
-clonezilla
-testdisk
-
+xapps             # common xapps libs
+xreader           # atril/evince
+xviewer           # eom/eog
+xed               # pluma/gedit
+xplayer           # totem
+pix               # gthumb
 
 ## Network and connect
 gvfs
-gvfs-afc
+>extra gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
+gvfs-nfs
 gvfs-smb
-#modemmanager
 >extra modem-manager-gui
 networkmanager
 networkmanager-dispatcher-ntpd
 network-manager-applet
-openresolv
-
-
-## Basic
-#accountsservice
-#gconf
-#yelp
+#openresolv
 
 
 ## Packages for Sound and Audio
@@ -111,11 +93,10 @@ openresolv
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra libdvdcss
-pavucontrol
 
 
 ## Package manager and AUR
-pamac
+pamac5
 >extra base-devel
 >extra yaourt
 >extra git

@@ -1,8 +1,8 @@
 ## Manjaro
 manjaro-documentation-en
 manjaro-alsa
-manjaro-pulse
-manjaro-printer
+>extra manjaro-pulse
+>extra manjaro-printer
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >extra manjaro-hello
@@ -48,6 +48,7 @@ gnome-disk-utility
 gnome-system-log
 gnome-keyring
 gnome-screenshot
+gnome-system-monitor
 >extra gtk3-print-backends
 >extra conky-manager
 >extra libreoffice-fresh
@@ -56,16 +57,12 @@ gnome-screenshot
 >extra chromium
 >extra liferea
 >extra simple-scan
-
+>extra xplayer
+>extra lollypop
 
 ## QT programs
->extra clementine
->extra vlc
-
-
-## CLI programs
-clonezilla
-testdisk
+#>extra clementine
+#>extra vlc
 
 
 ## Network and connect
@@ -73,17 +70,12 @@ gvfs
 >extra gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
+gvfs-nfs
 gvfs-smb
 >extra modem-manager-gui
 networkmanager-dispatcher-ntpd
 network-manager-applet
 #openresolv
-
-
-## Basic
-#accountsservice
-#gconf
-#yelp
 
 
 ## Packages for Sound and Audio
@@ -94,11 +86,10 @@ network-manager-applet
 >extra gst-plugins-good
 >extra gst-plugins-ugly
 >extra libdvdcss
-pavucontrol
 
 
 ## Package manager and AUR
-pamac
+pamac5
 >extra base-devel
 >extra yaourt
 >extra git
