@@ -96,11 +96,11 @@ pamac5
 
 
 ## Italian
-qt5-translations
-aspell-it
-hunspell
-hyphen-it
-man-pages-it
+#qt5-translations
+#aspell-it
+#hunspell
+#hyphen-it
+#man-pages-it
 
 
 ## Packages Desktop
