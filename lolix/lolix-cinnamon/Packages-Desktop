@@ -89,7 +89,7 @@ network-manager-applet
 
 
 ## Package manager and AUR
-pamac5
+pamac-classic
 >extra base-devel
 >extra yaourt
 >extra git
