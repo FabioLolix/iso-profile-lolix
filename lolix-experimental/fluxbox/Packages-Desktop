@@ -1,81 +1,70 @@
-## fluxbox Packages
-
-fluxbox
-compton
-fbmenu-manjaro
-xterm
-
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
->extra manjaro-settings-manager-notifier
-oblogout-manjaro
-#polkit-gnome
+## Manjaro
+manjaro-settings-manager
+manjaro-settings-manager-notifier
 manjaro-fluxbox-settings
 
-#accountsservice
-#cbatticon
-#dmenu-manjaro
-#fbmenugen
-#gconf # fix qt-theme
-#gnome-keyring # fix wlan segfault
-#lxappearance
-#plank
+
+## Display Manager
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+## Fluxbox Desktop
+compton
+fluxbox
+fbmenu-manjaro
+#dmenu-manjaro # deps
+#fbmenugen     # deps
+#gconf         # deps
+gksu
+gnome-keyring
+nitrogen
+oblogout-manjaro
+polkit
+polkit-gnome
+xterm
+lxappearance
+lxterminal
+lxsession
+xarchiver
+pcmanfm
+gvfs
+xed
+xfce4-terminal
+plank
 #xfce4-notifyd
 #xorg-xkill
 
 
-## Applications
+## CLI Applications
 htop
 screenfetch
-xed
-deadbeef
-gvfs
-wavpack
-mpd
-cantata
-
-gksu
-pcmanfm
-lxterminal
-lxsession
-#xarchiver
 
 
 ## Network
-#netctl
-#networkmanager
-#network-manager-applet
+network-manager-applet
 #networkmanager-dispatcher-ntpd
 #networkmanager-openconnect
 #networkmanager-openvpn
 #networkmanager-pptp
 #networkmanager-vpnc
-openresolv
-#>systemd syslog-ng
+
 
 ## Artwork
 fluxbox-theme-manjaro
 xcursor-breeze
 
+## Deps
 #cantarell-fonts
 #fluxbox-wallpapers
 #menda-themes-dark
-#numix-reborn-suite
-#xcursor-chameleon-pearl
+#numix-reborn-icon-themes
 #xcursor-menda
 #xfce-theme-greenbird
 
 
-## Audio Packages
-#gst-libav
-#gst-plugins-bad
-#gst-plugins-base
-#gst-plugins-good
-#gst-plugins-ugly
-#pavucontrol
-
 ## Package management
-pamac
+pamac-classic
 
 ## AUR Access
 #autoconf
@@ -97,8 +86,8 @@ pamac
 
 ## Shared Packages-Desktop list
 alsa-firmware
->extra dmidecode
->extra inxi
+dmidecode
+inxi
 manjaro-hotfixes
 mobile-broadband-provider-info
 modemmanager
