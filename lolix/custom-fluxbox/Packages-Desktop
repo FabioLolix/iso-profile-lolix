@@ -1,0 +1,139 @@
+## Manjaro
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+manjaro-fluxbox-settings
+
+
+## Display Manager
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+## Fluxbox Desktop
+compton
+fluxbox
+fbmenu-manjaro
+#dmenu-manjaro # deps
+#fbmenugen     # deps
+#gconf         # deps
+gksu
+gnome-keyring
+nitrogen       # wallpaper selector
+oblogout-manjaro
+polkit         # autentication
+polkit-gnome   # autentication
+xterm
+lxappearance
+lxterminal
+lxsession
+xarchiver
+pcmanfm
+gvfs
+xed
+polo            # AUR
+xfce4-terminal
+plank
+xfce4-notifyd
+#xorg-xkill
+
+
+## CLI Applications
+htop
+screenfetch
+
+
+## Audio & Multimedia
+deadbeef
+wavpack
+mpd
+minidlna
+cantata-lolix       # Exp repo
+mpv-lolix           # Exp repo
+pupnp               # Exp repo
+gerbera             # Exp repo
+gmusicbrowser-git   # AUR
+squeezelite-git     # AUR
+snapcast            # AUR
+upmpdcli            # AUR
+madrigal-git        # AUR
+logitechmediaserver # AUR
+automatic-ripping-machine-git # Exp repo
+
+
+## Network
+network-manager-applet
+#networkmanager-dispatcher-ntpd
+#networkmanager-openconnect
+#networkmanager-openvpn
+#networkmanager-pptp
+#networkmanager-vpnc
+
+
+## Artwork
+fluxbox-theme-manjaro
+xcursor-breeze
+
+## Deps
+#cantarell-fonts
+#fluxbox-wallpapers
+#menda-themes-dark
+#numix-reborn-icon-themes
+#xcursor-menda
+#xfce-theme-greenbird
+
+
+## Package management
+pamac-classic
+
+## AUR Access
+#autoconf
+#automake
+#binutils
+#bison
+#fakeroot
+#flex
+#gcc
+#>multilib gcc-multilib
+#git
+#libconfig
+#libtool
+#m4
+#make
+#patch
+#subversion
+#yaourt
+
+## Shared Packages-Desktop list
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+xdg-user-dirs
+xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-twm
+xorg-xinit
