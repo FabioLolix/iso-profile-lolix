@@ -32,13 +32,18 @@ gvfs
 xed
 xfce4-terminal
 plank
-#xfce4-notifyd
+xfce4-notifyd
 #xorg-xkill
 
 
 ## CLI Applications
 htop
 screenfetch
+
+
+## From user repo
+polo
+kitty
 
 
 ## Network
