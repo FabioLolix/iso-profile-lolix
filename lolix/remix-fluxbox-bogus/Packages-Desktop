@@ -37,13 +37,8 @@ xfce4-notifyd
 
 
 ## CLI Applications
-htop
-screenfetch
-
-
-## From user repo
-polo
-kitty
+#htop
+#screenfetch
 
 
 ## Network
