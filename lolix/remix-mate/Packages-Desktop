@@ -36,7 +36,6 @@ brisk-menu
 mate-tweak
 
 # mate-extra group
-caja-gksu
 caja-open-terminal
 caja-wallpaper
 mate-applets
@@ -49,13 +48,13 @@ mozo
 
 
 ## GTK programs
-gksu
+gtk3-classic
+zensu
 gnome-disk-utility
 gnome-keyring
 gsmartcontrol
 gparted
 lollypop
->extra gtk3-print-backends
 >extra libreoffice-fresh
 >extra gnome-mahjongg
 >extra firefox
