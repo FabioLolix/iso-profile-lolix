@@ -11,6 +11,7 @@ manjaro-documentation-en
 manjaro-settings-manager
 manjaro-settings-manager-notifier
 >extra manjaro-hello
+manjaro-lxqt-extra-settings
 
 
 ## Artwork and Fonts
@@ -31,9 +32,9 @@ sddm-qt-manjaro-theme
 compton
 feh
 obmenu-generator
-openbox
+# openbox # lxqt-group
 openbox-themes
-obconf-qt
+# obconf-qt  # lxqt-group
 tint2
 
 
@@ -60,7 +61,7 @@ juffed-qt5
 kcalc
 kwrite
 qpdfview
-qterminal
+# qterminal # lxqt-group
 >extra vlc
 kvantum-manjaro
 
@@ -70,11 +71,11 @@ kvantum-manjaro
 
 
 ## Network and connect
-#gvfs
-#gvfs-afc
-#gvfs-gphoto2
-#gvfs-mtp
-#gvfs-smb
+gvfs
+>extra gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+>extra gvfs-smb
 modemmanager
 modemmanager-qt
 networkmanager
