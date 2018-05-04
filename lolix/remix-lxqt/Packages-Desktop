@@ -4,13 +4,13 @@
 
 ## Manjaro
 manjaro-artwork
-manjaro-documentation
-manjaro-alsa
-manjaro-pulse
-manjaro-printer
+manjaro-documentation-en
+>extra manjaro-alsa
+>extra manjaro-pulse
+>extra manjaro-printer
 manjaro-settings-manager
 manjaro-settings-manager-notifier
-manjaro-hello
+>extra manjaro-hello
 
 
 ## Artwork and Fonts
@@ -33,6 +33,7 @@ feh
 obmenu-generator
 openbox
 openbox-themes
+obconf-qt
 tint2
 
 
@@ -54,35 +55,26 @@ lxqt
 
 
 ## QT GUI Programs
+falkon
+juffed-qt5
 kcalc
 kwrite
 qpdfview
 qterminal
-qupzilla
-vlc-nightly
-xarchiver
+>extra vlc
+kvantum-manjaro
 
 
-## LXDE GUI Programs
-#lxmusic
-#lxtask-gtk3
-
-
-## GTK GUI Programs
-#conky
-#conky-manager
-#gnome-disk-utility
-#gparted
-#simple-scan
-#firefox
+## GTK GUI
+# xarchiver
 
 
 ## Network and connect
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
+#gvfs
+#gvfs-afc
+#gvfs-gphoto2
+#gvfs-mtp
+#gvfs-smb
 modemmanager
 modemmanager-qt
 networkmanager
@@ -92,18 +84,57 @@ openresolv
 
 
 ## Basic
-accountsservice
-gconf
-yelp
+#accountsservice
+#gconf
+#yelp
 
 
 ## Packages for Sound and Audio
-ffmpeg
-#flashplugin
+# ffmpeg # dep
 
 
 ## Package manager and AUR
 octopi
-base-devel
-yaourt
-git
+octopi-notifier-qt5
+octopi-cachecleaner
+octopi-repoeditor
+#trizen
+#base-devel
+#yaourt
+#git
+
+
+## Default Packages Desktop
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+xdg-user-dirs
+xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-su
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+xorg-twm
+xorg-xinit
