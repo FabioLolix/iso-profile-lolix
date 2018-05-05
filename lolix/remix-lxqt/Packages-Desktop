@@ -64,10 +64,12 @@ qpdfview
 # qterminal # lxqt-group
 >extra vlc
 kvantum-manjaro
+mpc-qt
+yarock-mpv
 
 
 ## GTK GUI
-# xarchiver
+xarchiver
 
 
 ## Network and connect
@@ -129,6 +131,7 @@ ttf-droid
 ttf-inconsolata
 ttf-indic-otf
 ttf-liberation
+usb_modeswitch
 xdg-su
 xdg-utils
 xf86-input-elographics
