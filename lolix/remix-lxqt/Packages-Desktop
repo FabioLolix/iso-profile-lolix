@@ -58,8 +58,8 @@ lxqt
 ## QT GUI Programs
 falkon
 juffed-qt5
-kcalc
-kwrite
+>extra kcalc
+>extra kwrite
 qpdfview
 # qterminal # lxqt-group
 >extra vlc
