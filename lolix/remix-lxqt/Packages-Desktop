@@ -57,19 +57,25 @@ lxqt
 
 ## QT GUI Programs
 falkon
-juffed-qt5
+>extra juffed-qt5
 >extra kcalc
 >extra kwrite
-qpdfview
+>extra qpdfview
 # qterminal # lxqt-group
 >extra vlc
-kvantum-manjaro
-mpc-qt
-yarock-mpv
-
+>extra kvantum-manjaro
+>extra mpc-qt
+>extra yarock-mpv
+lumina-archiver
+lumina-calculator
+lumina-icon-theme
+lumina-mediaplayer
+lumina-pdf
+lumina-screenshot
+lumina-textedit
 
 ## GTK GUI
-xarchiver
+>extra xarchiver
 
 
 ## Network and connect
@@ -79,7 +85,6 @@ gvfs-gphoto2
 gvfs-mtp
 >extra gvfs-smb
 modemmanager
-modemmanager-qt
 networkmanager
 networkmanager-dispatcher-ntpd
 network-manager-applet
