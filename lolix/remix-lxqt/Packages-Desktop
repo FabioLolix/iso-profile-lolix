@@ -17,8 +17,9 @@ manjaro-lxqt-extra-settings
 ## Artwork and Fonts
 andromeda-icon-theme
 andromeda-wallpaper
-menda-lxqt-panel
-menda-circle-icon-theme
+breeze-maia-icon-themes 
+#menda-lxqt-panel
+#menda-circle-icon-theme
 vertex-maia-themes
 xcursor-breeze
 
@@ -35,7 +36,7 @@ obmenu-generator
 # openbox # lxqt-group
 openbox-themes
 # obconf-qt  # lxqt-group
-tint2
+>extra tint2
 
 
 ## LXQT Desktop (group)
@@ -84,7 +85,7 @@ gvfs
 gvfs-gphoto2
 gvfs-mtp
 >extra gvfs-smb
-modemmanager
+>extra modemmanager
 networkmanager
 networkmanager-dispatcher-ntpd
 network-manager-applet
@@ -118,7 +119,7 @@ dmidecode
 inxi
 manjaro-hotfixes
 mobile-broadband-provider-info
-modemmanager
+#modemmanager
 nss-mdns
 numlockx
 powertop
