@@ -37,6 +37,7 @@ obmenu-generator
 openbox-themes
 # obconf-qt  # lxqt-group
 >extra tint2
+xscreensaver
 
 
 ## LXQT Desktop (group)
@@ -66,7 +67,6 @@ falkon
 >extra vlc
 >extra kvantum-manjaro
 >extra mpc-qt
->extra yarock-mpv
 lumina-archiver
 lumina-calculator
 lumina-icon-theme
@@ -74,6 +74,9 @@ lumina-mediaplayer
 lumina-pdf
 lumina-screenshot
 lumina-textedit
+#lumina-fm
+#lumina-fileinfo # lumina-fm optdep
+#lumina-open # lumina-fm optdep
 
 ## GTK GUI
 >extra xarchiver
