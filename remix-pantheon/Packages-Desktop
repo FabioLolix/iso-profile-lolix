@@ -1,87 +1,85 @@
 ### Manjaro Packages Pantheon
 
 ## All file for any DE
+zensu
 dconf-editor
 gamin
 gconf # fix qt-theme
 gnome-keyring # fix wlan segfault
 gnome-control-center # for switchboard plug : some plug not work fine
 #gnome-settings-daemon-compat #for helping to use function key in a notebook
-gvfs # to fix trash in thunar
+#gvfs
 file-roller
-ristretto
 #xcursor-simpleandsoft
 #xcursor-vanilla-dmz-aa
 #tumbler
 lightdm-gtk-greeter
 lightdm-gtk-greeter-settings
 gnome-system-monitor
-gksu
-#xfce4-screenshooter #snapshot program snap-photobooth problem
-#xterm #need for use cli installer
-granite
+#granite
 libx264
+pantheon-unstable
 
 ##Deps
-gtk-theme-elementary
+#gtk-theme-elementary-git
 
 ##Pantheon Shell
-plank
-gala #solved in upstream
-pantheon-session-bzr
-wingpanel
-wingpanel-indicator-notifications
+#plank
+#gala-git #solved in upstream
+#pantheon-session-git
+#wingpanel
+#wingpanel-indicator-notifications
 #wingpanel-indicator-ayatana
 #wingpanel-indicator-ally-git
-wingpanel-indicator-datetime
-wingpanel-indicator-network
-wingpanel-indicator-power
-wingpanel-indicator-session
-wingpanel-indicator-sound
+#wingpanel-indicator-datetime
+#wingpanel-indicator-network
+#wingpanel-indicator-power
+#wingpanel-indicator-session
+#wingpanel-indicator-sound
 #wingpanel-indicator-launcher
 #pantheon-default-settings-brz #AUR
 
 ##Art Stuff
-elementary-icon-theme-git
-elementary-wallpapers-git
+#elementary-icon-theme-git
+#elementary-wallpapers-git
 #pantheon-backgrounds-bzr #AUR
 #elementary-add-icon-theme-git #AUR
 manjaro-backgrounds
-pantheon-wallpapers 
+#pantheon-wallpapers 
 
 ##Pantheon Apps
-audience
-noise-player
-evince
-contractor-git
+#audience
+#noise-player
+#evince
+#contractor-git
 #geary-plank-bzr #not work error with a library
 #lightdm-pantheon-greeter-bzr
 #maya-calendar-bzr
 #midori-granite-bzr
 #firefox
-pantheon-calculator
-pantheon-files-bzr
-pantheon-print-git
-pantheon-terminal-git
-scratch-text-editor-git
+#pantheon-calculator
+#pantheon-files-bzr
+#pantheon-print-git
+#pantheon-terminal-git
+#scratch-text-editor-git
 #snap-photobooth #AUR
-pantheon-photos
+#pantheon-photos
 
 
 ##Switchboard
-switchboard
-switchboard-plug-power
+#switchboard-git
+#switchboard-plug-power
 #switchboard-plug-elementary-tweaks-git #AUR
-switchboard-plug-desktop
-switchboard-plug-keyboard #not work at the moment
-switchboard-plug-about
+#switchboard-plug-desktop
+#switchboard-plug-keyboard #not work at the moment
+#switchboard-plug-about
 #switchboard-plug-locale
-switchboard-plug-datetime
-switchboard-plug-network
-switchboard-plug-notifications
+#switchboard-plug-datetime
+#switchboard-plug-network
+#switchboard-plug-notifications
 #switchboard-plug-security-privacy
-switchboard-plug-display
-pantheon-dpms-helper-bzr
+#switchboard-plug-display
+#pantheon-dpms-helper-git
 #elementary-dpms-helper-bzr #AUR
 
 ##Font
@@ -95,17 +93,16 @@ pantheon-dpms-helper-bzr
 
 ## Applications
 #accountsservice
-polkit-gnome
-gst-libav
-light-locker
+#polkit-gnome
+#>extra gst-libav
+#light-locker
 manjaro-settings-manager
-#manjaro-printer
-#manjaro-hello
+>extra manjaro-printer
+>extra manjaro-hello
 pamac
 
 ## Network
 netctl
-networkmanager
 networkmanager-dispatcher-ntpd
 openresolv
 
@@ -117,10 +114,10 @@ openresolv
 #gst-plugins-ugly
 #flashplugin
 #libdvdcss
-manjaro-alsa
-manjaro-pulse
-pavucontrol
-pulseaudio-ctl
+>extra manjaro-alsa
+>extra manjaro-pulse
+>extra pavucontrol
+>extra pulseaudio-ctl
 
 ## Documentation
 manjaro-documentation-en
@@ -144,13 +141,13 @@ modemmanager
 nss-mdns
 numlockx
 powertop
->systemd alsa-utils
->systemd avahi
+alsa-utils
+avahi
 networkmanager
->systemd ntp
->systemd openssh
->systemd xdg-user-dirs
->systemd xorg-server
+ntp
+openssh
+xdg-user-dirs
+xorg-server
 terminus-font
 ttf-bitstream-vera
 ttf-dejavu
@@ -163,7 +160,7 @@ xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-keyboard
->systemd xf86-input-libinput
+xf86-input-libinput
 xf86-input-mouse
 xf86-input-void
 xorg-twm
