@@ -17,27 +17,26 @@ manjaro-lxqt-extra-settings
 ## Artwork and Fonts
 andromeda-icon-theme
 andromeda-wallpaper
-breeze-maia-icon-themes 
 #menda-lxqt-panel
 #menda-circle-icon-theme
-vertex-maia-themes
+>extra vertex-maia-themes # require gtk-engine-murrine
 xcursor-breeze
 
 
 ## Display Manager
 sddm
 sddm-qt-manjaro-theme
+sddm-andromeda-qt-theme
 
 
 ## Window Manager
 compton
 feh
-obmenu-generator
+>extra obmenu-generator # require tint2 gtk2
 # openbox # lxqt-group
 openbox-themes
 # obconf-qt  # lxqt-group
->extra tint2
-xscreensaver
+>extra tint2 # require gtk2
 
 
 ## LXQT Desktop (group)
@@ -62,36 +61,30 @@ falkon
 >extra juffed-qt5
 >extra kcalc
 >extra kwrite
->extra qpdfview
+qpdfview
 # qterminal # lxqt-group
 >extra vlc
->extra kvantum-manjaro
->extra mpc-qt
-lumina-archiver
-lumina-calculator
-lumina-icon-theme
-lumina-mediaplayer
-lumina-pdf
-lumina-screenshot
-lumina-textedit
-#lumina-fm
-#lumina-fileinfo # lumina-fm optdep
-#lumina-open # lumina-fm optdep
+#kvantum-manjaro
+
 
 ## GTK GUI
 >extra xarchiver
 
 
+## CLI Programs and libs
+# ffmpeg # dep
+unzip
+
+
 ## Network and connect
-gvfs
+>extra gvfs
 >extra gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
+>extra gvfs-gphoto2
+>extra gvfs-mtp
 >extra gvfs-smb
->extra modemmanager
-networkmanager
 networkmanager-dispatcher-ntpd
-network-manager-applet
+#network-manager-applet
+networkmanager-qt
 openresolv
 
 
@@ -102,7 +95,6 @@ openresolv
 
 
 ## Packages for Sound and Audio
-# ffmpeg # dep
 
 
 ## Package manager and AUR
@@ -110,6 +102,7 @@ octopi
 octopi-notifier-qt5
 octopi-cachecleaner
 octopi-repoeditor
+pamac-qt
 #trizen
 #base-devel
 #yaourt
@@ -122,7 +115,7 @@ dmidecode
 inxi
 manjaro-hotfixes
 mobile-broadband-provider-info
-#modemmanager
+modemmanager
 nss-mdns
 numlockx
 powertop
