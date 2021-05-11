@@ -1,0 +1,21 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+###lumina###
+lumina-desktop
+
+networkmanager
+syslog-ng
+
+
+###apps###
+qterminal
+picom
+
+###DisplayManager###
+sddm
+
+manjaro-lumina-settings
+
+manjaro-documentation-en

@@ -1,0 +1,126 @@
+######################################################
+### THIS FILE WILL INCLUDE shared/Packages-Desktop ###
+######################################################
+
+## Manjaro
+manjaro-artwork
+manjaro-documentation-en
+>extra manjaro-alsa
+>extra manjaro-pulse
+>extra manjaro-printer
+manjaro-settings-manager
+>extra manjaro-settings-manager-notifier
+>extra manjaro-hello
+#manjaro-lxqt-desktop-settings
+manjaro-lxqt-config
+
+
+## Artwork and Fonts
+xcursor-breeze
+adapta-maia-theme
+manjaro-grub-theme-glassfield
+manjaro-icons
+papirus-maia-icon-theme
+
+
+## Display Manager
+sddm
+sddm-qt-manjaro-theme
+
+
+## Window Manager
+picom
+#feh
+
+
+xsettingsd
+
+
+## LXQT Desktop (group)
+# lxqt
+lximage-qt
+lxqt-about
+lxqt-archiver
+lxqt-config
+lxqt-globalkeys
+lxqt-notificationd
+lxqt-openssh-askpass
+lxqt-policykit
+lxqt-powermanagement
+lxqt-qtplugin
+lxqt-runner
+lxqt-session
+lxqt-sudo
+#obconf-qt  # lxqt-group
+qterminal
+screengrab
+
+
+## QT GUI Programs
+>extra falkon
+>extra juffed-qt5
+>extra kcalc
+>extra kwrite
+>extra qpdfview
+>extra vlc
+#kvantum-manjaro
+
+
+## GTK GUI
+pamac-gtk
+
+
+## CLI Programs and libs
+# ffmpeg # dep
+unzip
+
+
+## Network and connect
+>extra gvfs
+>extra gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-mtp
+>extra gvfs-smb
+networkmanager-dispatcher-ntpd
+#network-manager-applet
+networkmanager-qt
+openresolv
+
+
+## Basic
+#accountsservice
+#gconf
+#yelp
+
+
+## Default Packages Desktop
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+xdg-user-dirs
+xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-twm
+xorg-xinit

@@ -1,0 +1,122 @@
+### Manjaro Packages Pantheon
+manjaro-documentation-en
+manjaro-pantheon-settings
+manjaro-settings-manager
+>extra manjaro-printer
+>extra manjaro-hello
+pamac-gtk
+
+
+## All file for any DE
+dconf-editor
+gnome-keyring # fix wlan segfault
+#gnome-control-center # for switchboard plug : some plug not work fine
+file-roller
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+gnome-system-monitor
+#granite
+libx264
+pantheon-unstable
+
+
+##Deps
+
+
+##Pantheon Shell
+#plank
+#gala-git #solved in upstream
+#pantheon-session-git
+#wingpanel
+#wingpanel-indicator-notifications
+#wingpanel-indicator-ayatana
+#wingpanel-indicator-ally-git
+#wingpanel-indicator-datetime
+#wingpanel-indicator-network
+#wingpanel-indicator-power
+#wingpanel-indicator-session
+#wingpanel-indicator-sound
+#wingpanel-indicator-launcher
+#pantheon-default-settings-brz #AUR
+
+##Art Stuff
+manjaro-backgrounds
+
+
+##Pantheon Apps
+
+
+##Switchboard
+#switchboard-git
+#switchboard-plug-power
+#switchboard-plug-elementary-tweaks-git #AUR
+#switchboard-plug-desktop
+#switchboard-plug-keyboard #not work at the moment
+#switchboard-plug-about
+#switchboard-plug-locale
+#switchboard-plug-datetime
+#switchboard-plug-network
+#switchboard-plug-notifications
+#switchboard-plug-security-privacy
+#switchboard-plug-display
+
+
+## Applications
+accountsservice
+polkit-gnome
+
+
+## Network
+netctl
+networkmanager-dispatcher-ntpd
+openresolv
+
+## Packages for Sound and Audio
+#gst-libav
+#gst-plugins-bad
+#gst-plugins-base
+#gst-plugins-good
+#gst-plugins-ugly
+#libdvdcss
+>extra manjaro-alsa
+>extra manjaro-pulse
+>extra pavucontrol
+>extra pulseaudio-ctl
+
+
+##Access AUR
+#base-devel
+#git
+
+
+## Packages Desktop
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+xdg-user-dirs
+xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-twm
+xorg-xinit

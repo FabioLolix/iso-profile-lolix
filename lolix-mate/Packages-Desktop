@@ -1,0 +1,143 @@
+## Manjaro
+manjaro-documentation-en
+manjaro-alsa
+#>extra manjaro-pulse
+#>extra manjaro-printer
+manjaro-settings-manager
+#>extra manjaro-settings-manager-notifier
+#>extra manjaro-hello
+manjaro-mate-settings
+
+## Artwork and Fonts
+#adwaita-manjaro-themes
+gnome-themes-standard
+#mate-icon-theme-faenza  # mate-extra-gtk3 group
+mate-wallpapers
+maia-wallpaper
+xcursor-breeze
+xcursor-simpleandsoft
+arc-gtk-theme
+arc-solid-gtk-theme
+delft-icon-theme
+
+
+## Display Manager
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+
+
+## Mate
+mate			# Caja, Marco - core
+#mate-extra		# Mozo, desktop apps
+brisk-menu
+mate-tweak
+
+# mate-extra group
+caja-open-terminal
+caja-wallpaper
+mate-applets
+mate-utils
+engrampa
+galculator
+mate-system-monitor
+mate-terminal
+mozo
+
+
+## GTK programs
+gtk3
+#>extra zensu
+gnome-disk-utility
+gnome-keyring
+gsmartcontrol
+gparted
+gsmartcontrol
+libreoffice-still
+firefox
+asunder
+brasero
+telegram-desktop
+rhythmbox
+thunderbird
+vlc
+viewnior
+webp-pixbuf-loader
+#xapps             # common xapps libs
+xreader           # atril/evince
+# xviewer           # eom/eog
+xed               # pluma/gedit
+# xplayer           # totem
+# pix               # gthumb
+
+
+## CLI
+lsscsi
+nfs-utils
+autofs
+
+
+## Network and connect
+gvfs
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+networkmanager
+network-manager-applet
+#openresolv
+
+
+## Packages for Sound and Audio
+ffmpeg
+gst-libav
+#gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+#gst-plugins-ugly
+libdvdcss
+
+
+## Package manager and AUR
+#pamac-gtk
+pamac-classic
+#>extra base-devel
+#>extra yaourt
+#>extra git
+
+
+## Italian
+qt5-translations
+aspell-it
+hunspell
+hyphen-it
+
+## Packages Desktop
+alsa-firmware
+dmidecode
+inxi
+manjaro-hotfixes
+mobile-broadband-provider-info
+modemmanager
+nss-mdns
+numlockx
+powertop
+alsa-utils
+avahi
+networkmanager
+ntp
+openssh
+xdg-user-dirs
+xorg-server
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-droid
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+xdg-utils
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-libinput
+xf86-input-void
+xorg-twm
+xorg-xinit
