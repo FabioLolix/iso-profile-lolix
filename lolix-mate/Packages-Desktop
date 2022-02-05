@@ -1,11 +1,11 @@
 ## Manjaro
 manjaro-documentation-en
 manjaro-alsa
-#>extra manjaro-pulse
-#>extra manjaro-printer
+# manjaro-pulse
+# manjaro-printer
 manjaro-settings-manager
-#>extra manjaro-settings-manager-notifier
-#>extra manjaro-hello
+# manjaro-settings-manager-notifier
+# manjaro-hello
 manjaro-mate-settings
 
 ## Artwork and Fonts
@@ -36,9 +36,11 @@ mate-tweak
 caja-open-terminal
 caja-wallpaper
 mate-applets
+mate-media
+mate-sensor-applet
 mate-utils
 engrampa
-galculator
+mate-calcukator
 mate-system-monitor
 mate-terminal
 mozo
@@ -46,7 +48,7 @@ mozo
 
 ## GTK programs
 gtk3
-#>extra zensu
+# zensu
 gnome-disk-utility
 gnome-keyring
 gsmartcontrol
@@ -72,8 +74,6 @@ xed               # pluma/gedit
 
 ## CLI
 lsscsi
-nfs-utils
-autofs
 
 
 ## Network and connect
@@ -94,14 +94,13 @@ gst-plugins-base
 gst-plugins-good
 #gst-plugins-ugly
 libdvdcss
-
+pulseaudio
+pavucontrol
 
 ## Package manager and AUR
-#pamac-gtk
 pamac-classic
-#>extra base-devel
-#>extra yaourt
-#>extra git
+# base-devel
+# git
 
 
 ## Italian
